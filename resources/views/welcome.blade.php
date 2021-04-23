@@ -165,13 +165,13 @@ h1, h2, h3, h4, h5, h6 {
 
             <div class="nav">
             <ul class="menu">
-                 <li><a href=" {{ route('welcome') }} ">Главная</a></li>
+               <li><a href=" {{ route('welcome') }} ">Главная</a></li>
                   <li><a href="{{ route('2') }}">Добавить обьявление</a></li>
         
-                  <li><a href="{{ route('3') }}">Сообщение</a></li>
+                  <li><a href="{{ route('3') }}">Напишите нам</a></li>
                   <li><a href="{{ route('4') }}">Все обьявления</a></li>
-                  <li><a href="{{ route('5') }}">Профиль</a></li>
-                  <li><a href="{{ route('6') }}">Добавить профиль</a></li>
+                  <li><a href="{{ route('5') }}">Владельцы</a></li>
+                  <li><a href="{{ route('6') }}">Создать аккаунт</a></li>
                </ul>
 
          </div>
